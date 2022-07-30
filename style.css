@@ -1,0 +1,189 @@
+body{
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*=========================*/
+ /*     Common Css Start   */
+/*=========================*/
+.w_50{
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+}
+.container{
+  overflow: hidden;
+  width: 80%;
+  margin: auto;
+}
+
+/*=========================*/
+ /*     Common Css End   */
+/*=========================*/
+
+/*=========================*/
+ /*     Main Css Start   */
+/*=========================*/
+
+.main_area{
+  background:#f0f2f5 ;
+  overflow: hidden;
+  padding: 133px 0;
+}
+.main_area .facebook-image img{
+  width: 310px;
+}
+.main_area .facebook-image {
+  margin-top: 42px;
+}
+.main_area .text-area h3{
+  margin: -6px 0 0 28px;
+  font-size: 25px;
+  font-weight: normal;
+  color: #1c1e3b;
+}
+.main_area .login-form{
+  width: 67%;
+  margin: auto;
+  background: #fafafa;
+  padding: 15px 20px;
+  border-radius: 7px;
+  text-align: center;
+ 
+}
+.main_area .login-form input{
+  display:block;
+  width: 100%;
+  box-sizing: border-box;
+}
+.main_area .login-form input[type="text"],
+.main_area .login-form input[type="password"]{
+  padding: 15px;
+  font-size: 18px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #c3c6ca;
+}
+
+::placeholder{
+  color: #c3c6ca;
+}
+.main_area .login-form input[type="submit"]{
+  background: #1877f2;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 15px 0;
+  border: none;
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 18px;
+}
+.main_area .login-form input[type="text"]:focus{
+ border: 1px solid #63a1f2;
+ }
+ .main_area .login-form input[type="password"]:focus{
+  border: 1px solid #63a1f2;
+  }
+  .main_area .login-form .forgot-password{
+    color: #1877f2;
+    font-size: 14px;
+    text-decoration: none;
+  }
+  .main_area .login-form .forgot-password:hover{
+    text-decoration: underline;
+  }
+  .main_area .login-form .line{
+    border-top: 1px solid #dadde1;
+    margin: 20px 0;
+  }
+  .main_area .login-form .create-new-acc{
+    background: #42b72a;
+    padding: 15px 12px;
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 18px;
+  }
+  .main_area .login-form .create-new-acc:hover{
+    background: green;
+  }
+  .main_area .create-page{
+    text-align: center;
+    margin-top: 25px;
+  }
+  .main_area .create-page a{
+    text-decoration: none;
+    font-weight: bold;
+    color:#1c1e21;
+  }
+  .main_area .create-page a:hover{
+    text-decoration: underline;
+  }
+  .main_area .create-page p{
+    font-size: 14px;
+  }
+
+/*=========================*/
+ /*     Main Css End   */
+/*=========================*/
+
+/*=========================*/
+ /*     Footer area start   */
+/*=========================*/
+
+.footer-area{
+  padding: 30px 0;
+}
+.footer-area .language{
+  margin-bottom: 10px;
+}
+.footer-area .links{
+  margin-top: 10px;
+}
+.footer-area .language ul,
+.footer-area .links ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  color: #8a8d91;
+  
+}
+.footer-area .language ul a,
+.footer-area .links ul a{
+  color: #8a8d91;
+  text-decoration: none;
+}
+.footer-area .language ul li,
+.footer-area .links ul li{
+  display: inline-block;
+  margin-right: 15px;
+  margin-bottom: 5px;
+}
+.footer-area .footer-line{
+  border-top: 1px solid #dadde1;
+}
+.footer-area .copyright{
+  font-size: 14px;
+  color: #8a8d91;
+  margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=========================*/
+ /*     Footer area end   */
+/*=========================*/
+
+
